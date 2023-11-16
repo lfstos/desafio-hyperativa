@@ -32,7 +32,7 @@ python manage.py runserver
 
 ## Executando o projeto
 
-Para usar este projeto, siga as seguintes etapas:
+## Para usar este projeto, siga as seguintes etapas:
 
 ### 1. Execute o servidor de desenvolvimento:
 
@@ -42,16 +42,17 @@ Para usar este projeto, siga as seguintes etapas:
 
 ### Abra o navegador e vá para http://localhost:8000/api/
 
-## Endpoints
+# Endpoints
 
-### Listagem de Cartões:
-## Método: GET
-### - **Endpoint: /api/cartoes/**
+ ## Listagem de Cartões:
 
-### Detalhes do Cartão:
-## Método: GET
-### - **Endpoint: /api/cartoes/{numero_cartao}/**
+***Método: GET***  
+**Endpoint:** /api/cartoes  
 
-### Criação de Cartão:
-## Método: POST
-### - **Endpoint: /api/cartoes/**
+**Detalhes do Cartão:**  
+**Método: GET**  
+**Endpoint:** /api/cartoes/{numero_cartao}/  
+
+**Criação de Cartão:**  
+Método: POST
+**Endpoint:** /api/cartoes/
