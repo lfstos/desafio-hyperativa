@@ -44,15 +44,14 @@ python manage.py runserver
 
 # Endpoints
 
- ## Listagem de Cartões:
+- **Listagem de Cartões:**
+  - Método: GET
+  - Endpoint: /api/cartoes/
 
-***Método: GET***  
-**Endpoint:** /api/cartoes  
+- **Detalhes do Cartão:**
+  - Método: GET
+  - Endpoint: /api/cartoes/{numero_cartao}/
 
-**Detalhes do Cartão:**  
-**Método: GET**  
-**Endpoint:** /api/cartoes/{numero_cartao}/  
-
-**Criação de Cartão:**  
-Método: POST
-**Endpoint:** /api/cartoes/
+- **Criação de Cartão:**
+  - Método: POST
+  - Endpoint: /api/cartoes/
